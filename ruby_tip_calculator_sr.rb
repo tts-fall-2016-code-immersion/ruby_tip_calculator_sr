@@ -23,4 +23,4 @@ tip = percent_amount(bill, percent)
 sum = total_with_grat(bill,tip)
 
 puts "The tip amount is #{tip}"
-puts "The total amount we need to pay is #{sum}"
+puts "The total amount we need to pay is $#{sprintf("%01.2f", sum)}"
